@@ -41,7 +41,7 @@ class HomeScreen extends GetView<HomeController> {
               child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text('This is the home page'),
+              const Text('This the home page'),
               Text(getSessionTime()),
               ElevatedButton(
                 onPressed: () {
